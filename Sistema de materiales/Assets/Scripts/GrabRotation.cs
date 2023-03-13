@@ -20,3 +20,4 @@ public class GrabRotation : MonoBehaviour
         transform.rotation = Quaternion.identity;
     }
 }
+ 

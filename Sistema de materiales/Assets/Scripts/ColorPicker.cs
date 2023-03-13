@@ -51,4 +51,9 @@ public class ColorPicker : MonoBehaviour
         renderer.material = BodyColorMat[3];
         CurrMat = renderer.material;
     }
+
+    public void Close()
+    {
+        Application.Quit();
+    }
 }
